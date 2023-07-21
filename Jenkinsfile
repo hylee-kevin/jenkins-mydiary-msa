@@ -4,7 +4,6 @@ node {
     }
 
     stage('Build image') {
-       dockerImage = docker.build("leecloudo/mydiary-back:2.0")
        dockerImage = docker.build("leecloudo/mydiary-front:2.0")
     }
 
